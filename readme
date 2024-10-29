@@ -1,0 +1,8 @@
+准备步骤：
+    1.先执行Crop.py ————> 得到CroppedDataset
+    2.执行 DatasetPrepare.py ————> 得到Dataset（包含B 和 L）
+    3.执行 dataloader.py ————> 完善Dataset（包含train 和 test）
+
+开始实验：
+    1.执行main.py, 需指定model和epochs
+    2.执行prediction.py, 检验实验情况, 需指定参数路径和model类别
